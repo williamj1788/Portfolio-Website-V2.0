@@ -2,33 +2,47 @@
 <html>
 	<head>
 		<title>Second Blog Site</title>
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
-		<link rel="stylesheet" href="SecondBlogStyle.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" defer></script>
+		<link rel="stylesheet" href="SecondBlogStyle.css">
 	</head>
 	<body>
 		<div class="container-fluid">
-			<nav class="navbar navbar-dark bg-dark navbar-expand-lg" >
+			<nav class="navbar navbar-dark navbar-expand-lg fixed-top" style="background-color: #021A85;">
 				<a href="#" class="navbar-brand">
 					<img src="./images/NavbarIcon.jpg" width="40" height="40"><span class="navTitle"> Second Blog</span>
 				</a>
-				<ul class="navbar-nav ml-auto" style="font-size: 25px">
-					<li class="navbar-item" >
-						<a href="#" class="nav-link navItem">Summary</a>
-					</li >
-					<li class="navbar-item navTitle">
-						<a href="#" class="nav-link navItem">Interest</a>
-					</li>
-					<li class="navbar-item">
-						<a href="#" class="nav-link navItem">Projects</a>
-					</li>
-					<li class="navbar-item">
-						<a href="#" class="nav-link navItem">Contacts</a>
-					</li>
-				</ul>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav ml-auto" style="font-size: 25px">
+						<li class="navbar-item" >
+							<a href="#" class="nav-link navItem">Summary</a>
+						</li >
+						<li class="navbar-item navTitle">
+							<a href="#" class="nav-link navItem">Interest</a>
+						</li>
+						<li class="navbar-item">
+							<a href="#" class="nav-link navItem">Projects</a>
+						</li>
+						<li class="navbar-item">
+							<a href="#" class="nav-link navItem">Contacts</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
+			
+			<div id="main">
+				<div id="masterPhoto">
+					<img src="./images/Galaxy3.jpg" style="width:100%; height:100%;">
+					<div id="masterPhotoText"> Jacquez Williams</div>
+					
+				</div>
+			</div>
 		</div>
 	</body>
 </html>

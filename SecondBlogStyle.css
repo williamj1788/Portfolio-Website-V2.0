@@ -1,8 +1,32 @@
 .navTitle{
 	font-size: 35px; 
 	font-family: 'Chewy', cursive;
+	color: #10ADD7;
 }
 .navItem{
 	font-size: 28px; 
+	font-family: 'Chewy', cursive;
+}
+#main{
+	position: relative;
+	top: 70px;
+}
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+.container-fluid{
+	padding: 0;
+}
+#masterPhoto{
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+#masterPhotoText{
+	position: absolute;
+	top: 5%;
+	left: 35%;
+	font-size: 60px;
+	color: #10ADD7;
 	font-family: 'Chewy', cursive;
 }
