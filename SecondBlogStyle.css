@@ -10,6 +10,8 @@
 #main{
 	position: relative;
 	top: 70px;
+	background-color: #0FB5DE;
+	height: 100%;
 }
 .navbar-collapse.collapse.in {
   display: block!important;
@@ -29,4 +31,18 @@
 	font-size: 60px;
 	color: #10ADD7;
 	font-family: 'Chewy', cursive;
+}
+.infoTitle{
+	margin-top: 150px;
+	margin-left: 50px;
+	font-size: 50px; 
+	font-family: 'Chewy', cursive;
+}
+#summary-container{
+	position: absolute;
+	padding: 10px;
+	margin: 20px 30px;
+	width: 95%;
+	height: 400px;
+	border: 1px solid black;
 }
