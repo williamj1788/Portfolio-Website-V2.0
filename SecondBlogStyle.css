@@ -81,6 +81,28 @@ a.anchor {
 #interset-list{
 	font-size: 40px;
 }
+#Projects-container{
+	padding: 10px;
+	margin: 20px 30px;
+	width: 95%;
+	height: 400px;
+	background-color: #042E8A;
+	border-radius: 15px;
+	text-align: center;
+}
+.project-text{
+	text-align: center;
+	font-size: 30px;
+	color: #10ADD7;
+	font-family: 'Chewy', cursive;
+}
+.project-img{
+	height: 75%;
+	width: 90%;
+	/*height: 250px;
+	width: 275px;*/
+	text-align: center;
+}
 .list-item{
 	margin: 10px 0;
 }
@@ -141,6 +163,20 @@ body{
   #Interest-container{
 	  height: 650px;
   }
+  #Projects-container{
+	  height: 1300px;
+	  text-align: left;
+  }
+  .project-text{
+	  text-align: left;
+  }
+  .project-img{
+	height: 250px;
+	width: 275px;
+  }
+  body{
+	height: 3700px;
+}
   
 }
 @media screen and (max-width: 750px) {
