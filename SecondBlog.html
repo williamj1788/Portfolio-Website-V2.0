@@ -4,7 +4,7 @@
 		<title>Second Blog Site</title>
 		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Chewy|Kalam" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js" defer></script>
 		<link rel="stylesheet" href="SecondBlogStyle.css">
@@ -22,10 +22,10 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav ml-auto" style="font-size: 25px">
 						<li class="navbar-item" >
-							<a href="#" class="nav-link navItem">Summary</a>
+							<a href="#summaryTarget" class="nav-link navItem "summaryTarget>Summary</a>
 						</li >
 						<li class="navbar-item navTitle">
-							<a href="#" class="nav-link navItem">Interest</a>
+							<a href="#interestTarget" class="nav-link navItem">Interest</a>
 						</li>
 						<li class="navbar-item">
 							<a href="#" class="nav-link navItem">Projects</a>
@@ -42,7 +42,8 @@
 					<img src="./images/Galaxy3.jpg" style="width:100%; height:100%;">
 					<div id="masterPhotoText"> Jacquez Williams</div>
 				</div>
-				<h3 class="infoTitle">Summary</h3>
+				
+				<h3 id="summaryTarget" class="infoTitle">Summary</h3>
 				<div id="summary-container">
 					<p class="infoText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 					Suspendisse vitae neque tellus. Donec sit amet sollicitudin metus. 
@@ -59,6 +60,9 @@
 						<img id="me-img" src="./images/Me.jpg">
 					</div>
 					<a href="#" class="btn btn-primary button-text">Contact me</a>
+				</div>
+				<h3 id="interestTarget" class="infoTitle">Interest</h3>
+				<div id="Interest-container">
 				</div>
 			</div>
 		</div>
