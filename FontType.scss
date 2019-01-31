@@ -1,4 +1,4 @@
-@mixin fontType ($size, $weight: normal, $family: serif, $color: #343a40){
+@mixin fontType ($size, $family: serif, $weight: normal, $color: default){
     font: {
         size: $size;
         weight: $weight;
@@ -7,5 +7,15 @@
     color: $color;
 }
 .navTitle{
-    @include fontType(35px, normal, ('Chewy', cursive), #10ADD7)
+    @include fontType(35px,('Chewy', cursive) ,normal, #10ADD7);
+}
+.navItem{
+    @include fontType(28px, ('Chewy', cursive));
+}
+.project-text{
+    @include fontType(30px, ('Chewy', cursive), normal, #10ADD7);
+    text-align: center;
+}
+.infoText{
+    @include fontType(23px,('Kalam', cursive),normal ,#FFFFFF );
 }
