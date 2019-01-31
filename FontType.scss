@@ -1,0 +1,8 @@
+@mixin fontType ($size, $weight: normal, $family: serif, $color: #343a40){
+    font: {
+        size: $size;
+        weight: $weight;
+        family: $family;
+    }
+    color: $color;
+}
