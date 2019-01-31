@@ -20,10 +20,6 @@ body{
 	font-family: 'Chewy', cursive;
 }
 
-.navbar-collapse.collapse.in {
-  display: block!important;
-}
-
 #main{
 	position: relative;
 	top: 70px;

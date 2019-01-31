@@ -6,3 +6,6 @@
     }
     color: $color;
 }
+.navTitle{
+    @include fontType(35px, normal, ('Chewy', cursive), #10ADD7)
+}
