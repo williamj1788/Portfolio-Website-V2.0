@@ -41,14 +41,10 @@ body{
 }
 
 .infoTitle{
-	margin-top: 150px;
-	margin-left: 50px;
 	font-size: 50px; 
 	font-family: 'Chewy', cursive;
 }
 .panel-container{
-	padding: 10px;
-	margin: 20px 30px;
 	height: 400px;
 	width: 95%;
 	background-color: #042E8A;
