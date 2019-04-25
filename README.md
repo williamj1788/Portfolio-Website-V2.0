@@ -1,2 +1,25 @@
 # Second-Blog
-This is my person blog that i will use to practice Javascript, CSS, HTML5, and Bootstrap. Hope you Enjoy!
+
+## Description
+
+> Second version of the portfolio website which include more projects and updated descriptions
+
+## Timeline
+
+> January 21, 2019 - January 30, 2019
+
+## Technology
+
+> * HTML
+> * CSS
+> * Bootstrap
+
+## What I leared
+
+> * Bootstrap
+> * Media Quieries
+> * Responsive Design
+
+## Page
+
+![Page](./SecondBlog.png)
